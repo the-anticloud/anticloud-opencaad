@@ -1,0 +1,165 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:db267965-c3c7-5bbe-a233-0f7cc6455475",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T05:43:49Z",
+    "component": {
+      "type": "application",
+      "name": "OPENCAAD",
+      "version": "f5cca68a7500",
+      "bom-ref": "pkg:generic/anticloud/OPENCAAD@f5cca68a7500",
+      "purl": "pkg:generic/anticloud/OPENCAAD@f5cca68a7500",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f5cca68a7500ec452759a463010aced0cbbd278f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "cadquery-ocp-novtk",
+      "version": ">=",
+      "purl": "pkg:pypi/cadquery-ocp-novtk@",
+      "bom-ref": "pypi/cadquery-ocp-novtk@>="
+    },
+    {
+      "type": "library",
+      "name": "typing_extensions",
+      "version": ">=",
+      "purl": "pkg:pypi/typing-extensions@",
+      "bom-ref": "pypi/typing_extensions@>="
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=",
+      "purl": "pkg:pypi/numpy@",
+      "bom-ref": "pypi/numpy@>="
+    },
+    {
+      "type": "library",
+      "name": "svgpathtools",
+      "version": ">=",
+      "purl": "pkg:pypi/svgpathtools@",
+      "bom-ref": "pypi/svgpathtools@>="
+    },
+    {
+      "type": "library",
+      "name": "anytree",
+      "version": ">=",
+      "purl": "pkg:pypi/anytree@",
+      "bom-ref": "pypi/anytree@>="
+    },
+    {
+      "type": "library",
+      "name": "ezdxf",
+      "version": ">=",
+      "purl": "pkg:pypi/ezdxf@",
+      "bom-ref": "pypi/ezdxf@>="
+    },
+    {
+      "type": "library",
+      "name": "fonttools",
+      "version": ">=",
+      "purl": "pkg:pypi/fonttools@",
+      "bom-ref": "pypi/fonttools@>="
+    },
+    {
+      "type": "library",
+      "name": "ipython",
+      "version": ">=",
+      "purl": "pkg:pypi/ipython@",
+      "bom-ref": "pypi/ipython@>="
+    },
+    {
+      "type": "library",
+      "name": "ocpsvg",
+      "version": ">=",
+      "purl": "pkg:pypi/ocpsvg@",
+      "bom-ref": "pypi/ocpsvg@>="
+    },
+    {
+      "type": "library",
+      "name": "ocp_gordon",
+      "version": ">=",
+      "purl": "pkg:pypi/ocp-gordon@",
+      "bom-ref": "pypi/ocp_gordon@>="
+    },
+    {
+      "type": "library",
+      "name": "trianglesolver",
+      "version": "unspecified",
+      "purl": "pkg:pypi/trianglesolver",
+      "bom-ref": "pypi/trianglesolver@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sympy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sympy",
+      "bom-ref": "pypi/sympy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "webcolors",
+      "version": "~=",
+      "purl": "pkg:pypi/webcolors@",
+      "bom-ref": "pypi/webcolors@~="
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=",
+      "purl": "pkg:pypi/requests@",
+      "bom-ref": "pypi/requests@>="
+    },
+    {
+      "type": "library",
+      "name": "lib3mf",
+      "version": ">=",
+      "purl": "pkg:pypi/lib3mf@",
+      "bom-ref": "pypi/lib3mf@>="
+    },
+    {
+      "type": "library",
+      "name": "linux",
+      "version": "unspecified",
+      "purl": "pkg:pypi/linux",
+      "bom-ref": "pypi/linux@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aarch64",
+      "version": "unspecified",
+      "purl": "pkg:pypi/aarch64",
+      "bom-ref": "pypi/aarch64@unspecified"
+    }
+  ]
+}
